@@ -23,7 +23,7 @@ RUN cd /tmp/vim && make VIMRUNTIMEDIR=/usr/local/share/vim/vim81 && make install
 ## config/compile vim plugins
 
 RUN git clone https://github.com/VundleVim/Vundle.vim.git /root/.vim/bundle/Vundle.vim
-RUN wget -P /root/ https://raw.githubusercontent.com/tcbtcb/work-image/master/.vimrc
+RUN wget -P /root/ https://raw.githubusercontent.com/tcbtcb/go-image/master/.vimrc
 RUN vim +PluginInstall +qall
 RUN vim +GoInstallBinaries +qall
 

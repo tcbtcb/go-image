@@ -12,9 +12,6 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'fatih/vim-go'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-jdaddy'
-Plugin 'scrooloose/syntastic'
-Plugin 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
 
 call vundle#end() 
 
