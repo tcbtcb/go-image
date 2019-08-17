@@ -12,6 +12,10 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'fatih/vim-go'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-jdaddy'
+Plugin 'Shougo/deoplete.nvim'
+
+" Activate deoplete by default
+let g:deoplete#enable_at_startup = 1
 
 call vundle#end() 
 
